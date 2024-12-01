@@ -54,3 +54,61 @@ body {
     background:#4caf50;
     color:white;
   }
+  .blocks{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+  }
+  .titulo1{
+    margin-top: 5px;
+    margin-bottom:5px;
+    color:#4caf50;
+    text-align: center;
+  }
+  .textBlock1{
+    padding: 5px;
+    width: 600px;
+    height: 500px;
+    border: 2px solid #4caf50;
+  }
+  .foto1{
+    margin-top: 25px;
+    text-align: center;
+  }
+  .titulo2{
+    margin-top: 5px;
+    margin-bottom:5px;
+    color:#4caf50;
+    text-align: center;
+  }
+  .textBlock2{
+    padding: 5px;
+    height: 500px;
+    width: 600px;
+    border: 2px solid #4caf50;
+  }
+  .foto2{
+    margin-top: 25px;
+    text-align: center;   
+  }
+  .titulo3{
+    margin-top: 5px;
+    margin-bottom:5px;
+    color:#4caf50;
+    text-align: center;
+  }
+  .textBlock3{
+    padding: 5px;
+    height: 500px;
+    width: 600px;
+    border: 2px solid #4caf50;
+  }
+  .foto3{
+    margin-top: 25px;
+    text-align: center;   
+  }
