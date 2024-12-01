@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #1d2a33;
@@ -26,4 +31,25 @@ body {
   .line{
     height: 5px;
     background-color:#4caf50;
+  }
+  .menu{
+    list-style: none;
+    border: 1px solid #4caf50;
+    float: left;
+    display:block;
+  }
+  .menu li{
+    float:left;
+    display:block;
+  }
+  .menu li a{
+    float:left;
+    color: white;
+    text-decoration: none;
+    border:1px solid #4caf50;
+    display:block;
+  }
+  .menu li a:hover{
+    background:#4caf50;
+    color:white;
   }
