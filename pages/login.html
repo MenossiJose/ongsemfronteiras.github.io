@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - Ong Sem Fronteiras</title>
-    <link rel="stylesheet" href="../styles/registroStyles.css">
+    <title>Login - Ong Sem Fronteiras</title>
+    <link rel="stylesheet" href="../styles/loginStyles.css">
 </head>
 
 <body>
     <div class="container">
         <img src="../figs/reciclagem.png" alt="Logo da ONG Sem Fronteiras">
         <h1>Ong Sem Fronteiras</h1>
-        <form action="./login.html" method="GET">
-            <input type="text" name="nome" placeholder="Nome" required>
-            <input type="text" name="sobrenome" placeholder="Sobrenome" required>
-            <input type="date" required>
+        <form action="../index.html" method="GET">
             <input type="email" name="email" placeholder="E-mail" required>
             <input type="password" name="senha" placeholder="Senha" required>
-            <button type="submit">Cadastrar</button>
+            <button type="submit">Login</button>
         </form>
+        <div class="button-container">
+            <button onclick="window.location.href='./pages/registro.html'" class="registro-btn">Registrar-se</button>
+        </div>
     </div>
     <footer>
         <p>&copy; 2024 Ong Sem Fronteiras. Todos os direitos reservados.</p>
