@@ -12,5 +12,5 @@ Acesse a página principal para obter informações sobre a ONG, eventos de reci
 
 ## Alunos
 George Silva Oliveira
-\nJosé Antonio Menossi
-\nPedro Otávio de Brito
+<br>José Antonio Menossi
+<br>Pedro Otávio de Brito
