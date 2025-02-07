@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         userEmail.value = '';
     });
 
+    // Funcao add user
     function addUser(name, email) {
         const user = {
             name: name,
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         displayUsers();
     }
 
+    // Funcao exibe users
     function displayUsers() {
         const users = JSON.parse(localStorage.getItem('users')) || [];
         userList.innerHTML = '';
@@ -45,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Funcao deletas
     function deleteUser(index) {
         const users = JSON.parse(localStorage.getItem('users')) || [];
         users.splice(index, 1);
@@ -52,11 +55,13 @@ document.addEventListener('DOMContentLoaded', function() {
         displayUsers();
     }
 
+    // Funcao de limpas
     function clearUsers() {
         localStorage.removeItem('users');
         displayUsers();
     }
 
+    // Funcao de busca
     function searchUsers(query) {
         const users = JSON.parse(localStorage.getItem('users')) || [];
         const filteredUsers = users.filter(user => 
@@ -79,12 +84,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     displayUsers();
 
-    // Adding UI elements for additional functionalities
+    // Limpa form
     const clearAllButton = document.createElement('button');
     clearAllButton.textContent = 'Excluir Todos';
     clearAllButton.addEventListener('click', clearUsers);
     userList.parentNode.insertBefore(clearAllButton, userList.nextSibling);
 
+    // Pesquisa user
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
     searchInput.placeholder = 'Pesquisar Usuários';
