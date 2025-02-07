@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Ong Sem Fronteiras</title>
+    <link rel="stylesheet" href="../styles/adminStyles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img class="logo" src="../figs/reciclagem.png" alt="Logo da ONG Sem Fronteiras">
+            <h1>Admin - ONG Sem Fronteiras</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Cadastrar Novo Usuário</h2>
+            <form id="userForm">
+                <input type="text" id="userName" placeholder="Nome do Usuário" required>
+                <input type="email" id="userEmail" placeholder="E-mail" required>
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="clearForm">Limpar Formulário</button>
+            </form>
+            <h2>Lista de Usuários</h2>
+            <ul id="userList"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ong Sem Fronteiras. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../scripts/admin.js"></script>
+</body>
+
+</html>
